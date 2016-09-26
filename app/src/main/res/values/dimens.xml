@@ -1,0 +1,25 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Lead 页面-->
+    <dimen name="lead_icons_margin_bottom">60dip</dimen>
+    <dimen name="lead_icons_width">10dip</dimen>
+    <dimen name="lead_icons_height">10dip</dimen>
+    <dimen name="lead_icons_margin">5dip</dimen>
+    <dimen name="lead_skip_margin_right">18dip</dimen>
+    <dimen name="lead_skip_margin_top">18dip</dimen>
+    <dimen name="app_listitem_horizontal_margin">16dp</dimen>
+
+    <!-- home 界面 -->
+    <dimen name="home_item_textView">14sp</dimen>
+    <dimen name="home_item_textMarginTop">10dip</dimen>
+
+    <!-- action bar -->
+    <dimen name="actionbar_height">36dp</dimen>
+    <dimen name="actionbar_titleSize">16sp</dimen>
+    <dimen name="icon_width">42dp</dimen>
+
+
+</resources>

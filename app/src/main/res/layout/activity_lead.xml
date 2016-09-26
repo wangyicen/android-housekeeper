@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.feicui.edu.housekeeper.activity.LeadActivity">
+
+    <!-- ViewPager控件 -->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/leadBackground"
+
+        />
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        >
+        <!-- 第一个圆形指示器 -->
+        <ImageView
+            android:id="@+id/icon1"
+            style="@style/LeadImageView"
+            android:contentDescription="@string/lead_text_description1"
+            />
+        <!-- 第二个圆形指示器 -->
+        <ImageView
+            android:id="@+id/icon2"
+            style="@style/LeadImageView"
+            android:contentDescription="@string/lead_text_description2"
+            />
+        <!-- 第三个圆形指示器 -->
+        <ImageView
+            android:id="@+id/icon3"
+            style="@style/LeadImageView"
+            android:contentDescription="@string/lead_text_description3"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/lead_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:textSize="25sp"
+        android:text="@string/lead_skiptext"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        />
+</RelativeLayout>
